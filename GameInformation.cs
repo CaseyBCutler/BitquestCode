@@ -128,6 +128,10 @@ public class GameInformation: MonoBehaviour {
         }
     }
     //exp and level information max for both is 9999999
+    public static uint SkillPoints {
+        get;
+        set;
+    }
     private static uint playerCurrentExp = 0;
     public static uint PlayerCurrentExp {
         get {
@@ -384,7 +388,7 @@ class PlayerData {
     public string playerName = "Please enter a Name", playerBio = "Please enter a Bio";
     private byte evilGood, lawChaos, neutralPshyco;
     public byte playerClass;
-    public uint money, playerCurrentExp, playerRequiriredExp;
+    public uint money, playerCurrentExp, playerRequiriredExp, skillPoints;
     public byte level, strength, intellect, agility, stamina, vitalitiy, spirit;
     public bool isMale;
 

@@ -38,7 +38,9 @@ public static class LoadInformation {
             GameInformation.PlayerCurrentExp = data.playerCurrentExp;
             GameInformation.PlayerRequriredExp = data.playerRequiriredExp;
             GameInformation.PlayerLevel = data.level;
+            GameInformation.SkillPoints = data.skillPoints;
 
+            GameInformation.Strength = data.strength;
             GameInformation.Agility = data.agility;
             GameInformation.Intelect = data.intellect;
             GameInformation.Stamina = data.stamina;

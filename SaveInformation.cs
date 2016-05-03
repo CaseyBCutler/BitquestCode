@@ -56,6 +56,7 @@ public class SaveInformation {
             data.playerCurrentExp = GameInformation.PlayerCurrentExp;
             data.playerRequiriredExp = GameInformation.PlayerRequriredExp;
             data.level = GameInformation.PlayerLevel;
+            data.skillPoints = GameInformation.SkillPoints;
             
             data.strength = GameInformation.Strength;
             data.agility = GameInformation.Agility;
